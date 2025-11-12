@@ -90,4 +90,23 @@ Detects and demodulates incoming IR signals for ESP32 processing.
 ---
 
 ## 📷 Block Diagram (Conceptual)
+[ Sender ESP32 ] → [ IR LED (38kHz) ] ⇢⇢⇢ [ IR Receiver (HW-477) ] → [ Receiver ESP32 ]
+                                 ↓
+                            Wi-Fi / Bluetooth Fallback
+
+---
+
+## 🧩 Applications
+
+- Defense & Tactical Communication  
+- Industrial Automation  
+- Secure IoT Infrastructure  
+- RF-restricted or jammed environments  
+
+---
+
+## 🧾 License
+
+This project is developed for academic and research purposes.  
+For commercial or defense-grade use, please contact the authors for permissions and collaboration.
 
